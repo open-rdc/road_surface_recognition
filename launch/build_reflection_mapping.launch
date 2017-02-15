@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<launch>
+    <node name="making_envir_cloud" pkg="road_surface_recognition" type="making_environmental_pointcloud" />
+    <node name="reflection_intensity_mapping_node" pkg="road_surface_recognition" type="reflection_intensity_mapping_node" output="screen"/>
+</launch>
